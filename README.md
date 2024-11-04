@@ -48,7 +48,7 @@ So there are five exposed functions:
 - **RemoveCallback(void(\*callback)(int, int))**  
     Removes passed function from callback list. Does nothing if it's not listed as callbacks. If there are more than 16 empty slots in the callback array, this function automatically frees 128 bytes of memory.
 
-Check out the **[Example]()** for details.
+Check out the **[Example](https://github.com/chrimp/Single-Header-RawInput/tree/main/example)** for details.
 
 ## How it works
 Simply this creates an invisible Win32 window, and uses it to register raw inputs. It's built purely on Win32 and C99.
